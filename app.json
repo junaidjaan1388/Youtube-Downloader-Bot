@@ -5,9 +5,9 @@
   "keywords": [
     "Youtube","YoutubeDownloader"
   ],
-  "repository": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
-  "success_url": "https://t.me/youtubdlbot",
-  "website": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
+  "repository": "https://github.com/junaidjaan1388/yt7s-Bot",
+  "success_url": "https://t.me/Get_Vids_bot",
+  "website": "https://github.com/junaidjaan1388/yt7s-Bot",
   "env": {
         "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
         "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
@@ -15,7 +15,7 @@
   },
       "buildpacks": [
         {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
-        {"url": "heroku/python"}
+      
     ],
   "formation": {
         "worker": {
@@ -23,7 +23,7 @@
             "size": "free"
         }
     },
-      "stack": "heroku-20"
+     
 
 
 }
